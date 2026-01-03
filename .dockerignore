@@ -1,0 +1,66 @@
+# --------------------
+# Python cache
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual environments
+# --------------------
+myenv/
+venv/
+.env/
+.env.*
+
+# --------------------
+# Git
+# --------------------
+.git/
+.gitignore
+
+# --------------------
+# OS / Editor files
+# --------------------
+.DS_Store
+.vscode/
+.idea/
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Streamlit cache
+# --------------------
+.streamlit/
+
+# --------------------
+# Chroma vector store (optional)
+# ⚠️ Remove this if you WANT persistence inside the image
+# --------------------
+server/chroma_store/
+
+# --------------------
+# Uploaded files (optional)
+# ⚠️ Remove this if you WANT uploaded PDFs baked in
+# --------------------
+server/uploaded_pdfs/
+
+# --------------------
+# Node / frontend leftovers (safe)
+# --------------------
+node_modules/
+
+# --------------------
+# Build artifacts
+# --------------------
+dist/
+build/
